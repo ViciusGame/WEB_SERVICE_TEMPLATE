@@ -1,3 +1,78 @@
-.vs
-.github
-.git
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# ReSharper
+.idea/
+*.DotSettings
+*.DotSettings.user
+
+# User-specific files
+*.suo
+*.sln.DotSettings
+.vscode/settings.json
+
+# NuGet
+.nuget/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Local environment
+local.settings.json
+appsettings.Local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio for Mac
+.vs/
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
