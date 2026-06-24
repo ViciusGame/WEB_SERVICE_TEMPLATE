@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 using System.Diagnostics;
 using WEB_SERVICE_TEMPLATE.Models;
 
@@ -8,7 +9,8 @@ namespace WEB_SERVICE_TEMPLATE.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            DataTable dt = DBConnect.GetData();
+            return View(dt);
         }
 
         public IActionResult Privacy()
